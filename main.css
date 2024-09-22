@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Courier New", Courier, monospace;
 }
@@ -476,6 +480,14 @@ footer p {
   
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+.links li {
+    transition: transform 0.3 ease;
+}
+
+.links li:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1660px) {
