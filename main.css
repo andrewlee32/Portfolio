@@ -343,6 +343,7 @@ h2 {
     padding: 1rem;
     width: 8 rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 #projects p {
