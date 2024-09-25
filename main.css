@@ -81,9 +81,11 @@ section {
 
 .profile-picture {
     display: flex;
-    height: 650px;
-    width: 650px;
+    height: 500px;
+    width: 500px;
     margin: auto 0;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
 }
 
 .profile-picture img {
