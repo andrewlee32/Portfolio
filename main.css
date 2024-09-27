@@ -293,7 +293,7 @@ article .icon {
     margin-block-start: 0.5em;
 }
 
-.project-grid {
+.grid {
     display: grid;
     margin-bottom: 1.8rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -339,6 +339,7 @@ h2 {
 }
 
 .button-container {
+    margin-top: 1rem;
     gap: 1 rem;
     display: flex;
     justify-content: center;
@@ -369,6 +370,15 @@ h2 {
 #projects p {
     color: black;
     font-weight: 520;
+}
+
+#certificate p {
+    padding-top: 1rem;
+    font-weight: 550;
+}
+
+#certificate {
+    background-color: lightblue;
 }
 
 #contact {
@@ -557,3 +567,4 @@ footer p {
         height: auto;
     }
 }
+
